@@ -16,14 +16,15 @@ class PopularWidget extends StatelessWidget {
           history.add(data[index]);
           context.push(
               view: DetailsScreen(
-            title: data[index].dates??"",
-            image: data[index].image!,
+            title: data[index].dates ?? "",
+            image: data[index].imagec!,
           ));
         },
         child: Container(
+          clipBehavior: Clip.hardEdge,
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage(data[index].image!), fit: BoxFit.cover),
+                  image: AssetImage(data[index].image!), fit: BoxFit.contain),
               borderRadius: BorderRadius.circular(20)),
         ),
       ),

@@ -7,63 +7,72 @@ var dates = [
     "culture": "ajwaC",
     "origin": "ajwaO",
     "usage": "ajwaU",
-    "image": "assets/ss.jpg"
+    "image": "assets/dates/ajwa.jpeg",
+    "imagec": "assets/dates/ajwaC.jpeg"
   },
   {
     "dates": "galaxy",
     "culture": "galaxyC",
     "origin": "galaxyO",
     "usage": "galaxyU",
-    "image": "assets/galaxy.jpeg"
+    "image": "assets/dates/galaxy.jpeg",
+    "imagec": "assets/dates/galaxyC.jpeg",
   },
   {
     "dates": "medjool",
     "culture": "medjoolC",
     "origin": "medjoolO",
     "usage": "medjoolU",
-    "image": "assets/mejdool.jpeg"
+    "image": "assets/dates/majdool.jpeg",
+    "imageC": "assets/dates/majdoolC.jpeg"
   },
   {
     "dates": "Meneifi",
     "culture": "MeneifiC",
     "origin": "MeneifiO",
     "usage": "MeneifiU",
-    "image": "assets/ss.jpg"
+    "image": "assets/dates/meneifi.jpeg",
+    "imagec": "assets/dates/meneifiC.jpeg",
   },
   {
     "dates": "NabtatAli",
     "culture": "NabtatAliC",
     "origin": "NabtatAliO",
     "usage": "NabtatAliU",
-    "image": "assets/as.jpg"
+    "image": "assets/dates/nabtat.jpeg",
+    "imagec": "assets/dates/nabtatC.jpeg",
   },
   {
     "dates": "Rutab",
     "culture": "RutabC",
     "origin": "RutabO",
     "usage": "RutabU",
-    "image": "assets/to.jpg"
+    "image": "assets/dates/rutab.jpeg",
+    "imagec": "assets/dates/rutabC.jpeg"
   },
   {
     "dates": "Shaishe",
     "culture": "ShaisheC",
     "origin": "ShaisheO",
     "usage": "ShaisheU",
-    "image": "assets/as.jpg"
+    "image": "assets/dates/shaishe.jpeg",
+    "imagec": "assets/dates/shaisheC.jpeg"
   },
   {
     "dates": "Sokari",
     "culture": "SokariC",
     "origin": "SokariO",
     "usage": "SokariU",
-    "image": "assets/ss.jpg"
+    "image": "assets/dates/sokari.jpeg",
+    "imagec": "assets/dates/sokari.jpeg"
   },
   {
     "dates": "Sugaey",
     "culture": "SugaeyC",
     "origin": "SugaeyO",
     "usage": "SugaeyU",
-    "image": "assets/to.jpg"
+    "image": "assets/dates/sugaey.jpeg",
+    "imagec": "assets/dates/sugaey.jpeg"
   },
 ];
 

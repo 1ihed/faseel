@@ -31,34 +31,31 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                 return Container(
                   clipBehavior: Clip.hardEdge,
                   decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage(favorite[index]['image']!)),
                       color: ColorsApp.bottomBar.withOpacity(0.7),
                       borderRadius: BorderRadius.circular(20)),
-                  child: Column(
-                    children: [
-                      Image.asset(
-                        favorite[index]['image']!,
-                        cacheHeight: 150,
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: ListTile(
+                      titleTextStyle: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: ColorsApp.text,
+                          fontSize: 20),
+                      title: Text(
+                        favorite[index]['title']!,
+                        overflow: TextOverflow.fade,
                       ),
-                      ListTile(
-                        titleTextStyle: TextStyle(
-                            fontWeight: FontWeight.w500,
-                            color: ColorsApp.text,
-                            fontSize: 20),
-                        title: Text(
-                          favorite[index]['title']!,
-                          overflow: TextOverflow.fade,
-                        ),
-                        trailing: IconButton(
-                            onPressed: () {
-                              favorite.removeAt(index);
-                              setState(() {});
-                            },
-                            icon: const Icon(
-                              Icons.favorite,
-                              color: Colors.red,
-                            )),
-                      ),
-                    ],
+                      trailing: IconButton(
+                          onPressed: () {
+                            favorite.removeAt(index);
+                            setState(() {});
+                          },
+                          icon: const Icon(
+                            Icons.favorite,
+                            color: Colors.red,
+                          )),
+                    ),
                   ),
                 );
               })),

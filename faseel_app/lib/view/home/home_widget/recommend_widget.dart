@@ -15,7 +15,7 @@ class RecommendWidget extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       itemCount: data.length,
       itemBuilder: (context, index) {
-        data.sort((a, b) => a.dates!.length.compareTo(b.dates!.length));
+        data.sort((a, b) => b.dates!.length.compareTo(a.dates!.length));
         return recomendShape(context, data[index]);
       },
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -34,7 +34,7 @@ class RecommendWidget extends StatelessWidget {
         Navigator.of(context).push(MaterialPageRoute(
           builder: (context) => DetailsScreen(
             title: product.dates!,
-            image: product.image!,
+            image: product.imagec!,
           ),
         ));
       },
@@ -42,7 +42,8 @@ class RecommendWidget extends StatelessWidget {
         padding: const EdgeInsets.all(8),
         decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage(product.image!), fit: BoxFit.cover),
+                image: AssetImage(product.image!),
+                fit: BoxFit.contain),
             borderRadius: BorderRadius.circular(20)),
       ),
     );

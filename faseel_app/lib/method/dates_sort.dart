@@ -10,7 +10,8 @@ class DatesSort {
           culture: element["culture"],
           image: element["image"],
           origin: element["origin"],
-          usage: element["usage"]));
+          usage: element["usage"],
+          imagec: element['imagec']));
     }
     return data;
   }

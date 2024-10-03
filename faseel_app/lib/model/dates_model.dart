@@ -4,8 +4,9 @@ class DatesModel {
   String? origin;
   String? usage;
   String? image;
+  String? imagec;
 
-  DatesModel({this.dates, this.culture, this.origin, this.usage, this.image});
+  DatesModel({this.imagec, this.dates, this.culture, this.origin, this.usage, this.image});
 
   DatesModel.fromJson(Map<String, dynamic> json) {
     dates = json['dates'];
@@ -13,6 +14,7 @@ class DatesModel {
     origin = json['origin'];
     usage = json['usage'];
     image = json['image'];
+    imagec = json['imagec'];
   }
 
   Map<String, dynamic> toJson() {
