@@ -1,0 +1,117 @@
+{
+  "category": "Category",
+  "popularD": "Popular destination",
+  "popular": "Popular",
+  "stores": "Stores",
+  "scan": "Scan",
+  "recommend": "Recommend",
+  "cam": {
+    "searchF": "search your favorite",
+    "camera": "Camera",
+    "gallery": "Gallery"
+  },
+  "dates": {
+    "dates": "Dates",
+    "varieties": "Calture",
+    "origins": "Origins",
+    "usage": "Usage"
+  },
+  "product": {
+    "ajwa": {
+      "ajwa": "ajwa",
+      "ajwaC": "Ajwa is highly valued in Islamic culture, believed to protect against magic and illness. It is a traditional gift in Medina and is often served as part of hospitality. Many Hadiths highlight its importance, such as when the Prophet Muhammad (peace be upon him) said: 'Whoever eats seven Ajwa dates in the morning, no poison or magic will harm him that day.' (Source: Sahih Bukhari 5445, Sahih Muslim 2047)",
+      "ajwaO": " Medina, Saudi Arabia.",
+      "ajwaU": "Rich in antioxidants, Ajwa helps strengthen immunity and improve digestive health."
+    },
+    "galaxy": {
+      "galaxy": "galaxy",
+      "galaxyC": "Galaxy dates appeal to younger generations and luxury sweet lovers during special occasions.",
+      "galaxyO": "Commercially produced and not associated with a traditional agricultural source.",
+      "galaxyU": "A modern product often consumed as a snack or used in premium desserts, typically combined with additional flavors such as chocolate or nuts."
+    },
+    "medjool": {
+      "medjool": "medjool",
+      "medjoolC": "Valued in Western countries as a natural sugar alternative, Medjool dates are often used in smoothies and healthy baked goods. Considered a premium variety.",
+      "medjoolO": "Saudi Arabia, where it is grown in suitable climates. Also grown in Morocco, the United States, and Israel.",
+      "medjoolU": "Used as a natural sweetener in healthy meals and is an excellent choice for smoothies and snacks."
+    },
+    "Meneifi": {
+      "Meneifi": "Meneifi",
+      "MeneifiC": "A rare variety in Saudi Arabia, often presented at special occasions as a symbol of luxury.",
+      "MeneifiO": "Saudi Arabia, particularly in the northern regions.",
+      "MeneifiU": "Consumed fresh or used in traditional dishes and homemade desserts."
+    },
+    "NabtatAli": {
+      "NabtatAli": "Nabtat Ali",
+      "NabtatAliC": "Highly valued in Qassim as one of the premium varieties offered to guests.",
+      "NabtatAliO": "Qassim region, Saudi Arabia.",
+      "NabtatAliU": "Enjoyed as a snack or used in traditional dishes and desserts, often served at social gatherings."
+    },
+    "Rutab": {
+      "Rutab": "Rutab",
+      "RutabC": " A traditional food served during the summer and autumn seasons, an essential part of the Ramadan table in Saudi Arabia and the Gulf.",
+      "RutabO": "Saudi Arabia and the Gulf region.",
+      "RutabU": "Consumed fresh as a refreshing summer snack, sometimes paired with yogurt or used in juices."
+    },
+    "Shaishe": {
+      "Shaishe": "Shaishe",
+      "ShaisheC": " Offered during traditional and family gatherings, a significant variety in the local agricultural community.",
+      "ShaisheO": "Saudi Arabia.",
+      "ShaisheU": "Consumed as a snack or used in preparing traditional desserts."
+    },
+    "Sokari": {
+      "Sokari": "Sokari",
+      "SokariC": " A luxury date variety, commonly served at formal occasions and during holidays, especially during Ramadan.",
+      "SokariO": "Qassim region, Saudi Arabia.",
+      "SokariU": "Primarily consumed as a natural sweetener, sometimes added to desserts or enjoyed with coffee."
+    },
+    "Sugaey": {
+      "Sugaey": "Sugaey",
+      "SugaeyC": " Sugaey dates are often presented at social events and are favored for their delicious taste.",
+      "SugaeyO": "Qassim and Al-Ahsa regions, Saudi Arabia.",
+      "SugaeyU": "Consumed fresh or used in dessert preparations, often served as a snack."
+    }
+  },
+  "lang": "Choose Language",
+  "menu": {
+    "home": "Home",
+    "map": "Map",
+    "favorite": "Favorite",
+    "history": "History's",
+    "translate": "Languages"
+  },
+  "Welcome": "Welcome, ",
+  "msg": "Hello {} in the {} world ",
+  "msg_named": "{} are written in the {lang} language",
+  "clickMe": "Click me",
+  "profile": {
+    "reset_password": {
+      "label": "Reset Password",
+      "username": "Username",
+      "password": "password"
+    }
+  },
+  "clicked": {
+    "zero": "You didn't click yet!",
+    "few": "You clicked a few times ({})!",
+    "many": "You clicked many times ({})!",
+    "other": "You clicked {} time(s)!"
+  },
+  "amount": {
+    "zero": "Your amount : {} ",
+    "one": "Your amount : {} ",
+    "two": "Your amount : {} ",
+    "few": "Your amount : {} ",
+    "many": "Your amount : {} ",
+    "other": "Your amount : {} "
+  },
+  "gender": {
+    "male": "Hi man ;) ",
+    "female": "Hello girl :)",
+    "with_arg": {
+      "male": "Hi man ;) {}",
+      "female": "Hello girl :) {}"
+    }
+  },
+  "reset_locale": "Reset Language"
+}
