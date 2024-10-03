@@ -52,7 +52,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
           ),
           Column(
             children: [
-              SizedBox(
+              Container(
+                color: Colors.red,
                 height: MediaQuery.sizeOf(context).height * 0.3,
                 width: context.getWidthM(),
                 child: Image.asset(

@@ -14,14 +14,14 @@ var dates = [
     "culture": "galaxyC",
     "origin": "galaxyO",
     "usage": "galaxyU",
-    "image": "assets/as.jpg"
+    "image": "assets/galaxy.jpeg"
   },
   {
     "dates": "medjool",
     "culture": "medjoolC",
     "origin": "medjoolO",
     "usage": "medjoolU",
-    "image": "assets/to.jpg"
+    "image": "assets/mejdool.jpeg"
   },
   {
     "dates": "Meneifi",
@@ -42,8 +42,7 @@ var dates = [
     "culture": "RutabC",
     "origin": "RutabO",
     "usage": "RutabU",
-        "image": "assets/to.jpg"
-
+    "image": "assets/to.jpg"
   },
   {
     "dates": "Shaishe",
@@ -67,7 +66,6 @@ var dates = [
     "image": "assets/to.jpg"
   },
 ];
-
 
 List<Map<String, String>> favorite = [];
 List<String> autofillHints = ["Dates Ajua", "Dates Khlas", "Dates safoua"];
